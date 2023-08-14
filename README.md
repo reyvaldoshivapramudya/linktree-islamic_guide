@@ -1,6 +1,6 @@
 # linktree-islamic_guide
 
-![Foto project linktree-islamicguide](https://github.com/reyvaldoshivapramudya/linktree-islamic_guide/assets/106213143/6df70c07-9b3e-4b11-a28b-22b0856b4d65)
+![Foto project linktree-islamicguide](https://github.com/reyvaldoshivapramudya/linktree-islamic_guide/assets/106213143/955b15c7-969e-4d74-8d79-39475339e2a2)
 
 Mencoba untuk tidak hanya ingat kehidupan duniawi saja, tapi kehidupan akhirat kita jangan lupakan juga, maka dari itu linktree ini dibuat sebagai sarana untuk menjadi muslimin/muslimah yang lebih baik dan semoga selalu dirahmati oleh Allah Swt.
 
