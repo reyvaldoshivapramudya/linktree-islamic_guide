@@ -1,0 +1,190 @@
+/* FONT */
+@font-face {
+  font-family: fontArab;
+  src: url(assets/font/hidayatullah.ttf);
+}
+
+*,html {
+  margin: 0;
+  padding: 0;
+  font-family: fontArab;
+}
+
+.background {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(assets/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: hidden;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  margin: 10px auto;
+  border: 3px solid white;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  border-bottom: 3px solid white;
+}
+
+.profile > img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  box-shadow: rgb(0, 131, 22) 0px 0px 15px 0px;
+}
+
+.profile > h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.profile > p {
+  font-size: 2em;
+  margin: 10px auto;
+  color: rgb(0, 231, 0);
+  text-shadow: 0px 0px 6px rgba(0, 177, 29, 0.7);
+  background-color: #ffefef;
+  letter-spacing: 2px;
+  padding: 0 15px;
+  border-radius: 20px;
+  border: 2px solid rgb(0, 206, 27);
+}
+
+.profile > h2 {
+  font-size: 1.5em;
+  margin: 5px auto;
+  color: white;
+  background-color: rgb(18, 190, 18);
+  border-radius: 10px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+              0px 8px 13px rgba(0,0,0,0.1),
+              0px 18px 23px rgba(0,0,0,0.1);
+  padding: 1px 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.btn-link > a {
+  text-decoration: none;
+  color: #222;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #eaeaea;
+  border-radius: 7px;
+  margin: 5px 40px;
+  padding: 5px;
+  font-weight: 500;
+  box-shadow: 1px 1px 3px black, -1px -1px 3px black;
+  transition: .3s ease-in-out;
+}
+
+.btn-link > a:hover {
+  background-color: rgb(52, 223, 0);
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset, 1px 1px 5px black, -1px -1px 5px black;
+}
+
+.media-social {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+.media-social > a {
+  margin: 10px;
+  transition: .2s ease-in-out;
+}
+
+.media-social > a:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  margin: 15px auto;
+}
+
+footer > p {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px greenyellow;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 200px) and (max-width: 567px) {
+  .background {
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  
+  .container {
+    max-width: 310px;
+    margin: 20px auto;
+  }
+
+  .profile > h1 {
+    font-size: 1.2em;
+    letter-spacing: 0;
+  }
+
+  .profile > p {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    padding: 0 15px;
+  }
+
+  .btn-link > a {
+    margin: 5px 15px;
+  }
+
+  footer > p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 834px) {
+  .background {
+    height: 100vh;
+  }
+
+  .container {
+    margin: 50px auto;
+  }
+}
