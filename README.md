@@ -8,6 +8,6 @@ Link Project : https://linktree-islamic-guide.vercel.app
 
 Tools yang saya gunakan :
 
-HTML (Hypertext Markup Language)
-CSS (Cascading Style Sheet)
-Animate On Scroll Library (AOS)
+1. HTML (Hypertext Markup Language)
+2. CSS (Cascading Style Sheet)
+3. Animate.css
