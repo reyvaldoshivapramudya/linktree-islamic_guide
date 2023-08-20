@@ -4,7 +4,7 @@
   src: url(assets/font/hidayatullah.ttf);
 }
 
-*,html {
+* {
   margin: 0;
   padding: 0;
   font-family: fontArab;
@@ -177,7 +177,7 @@ footer > p {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 834px) {
+@media screen and (min-width: 768px) and (max-width: 884px) {
   .background {
     height: 100vh;
   }
